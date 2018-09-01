@@ -46,10 +46,15 @@ a {
 /* Header
 ------------------------------------------------------------*/
 
+header {
+  background-color: #DDDDDD;
+  max-height: 250px;
+  text-align: center;
+}
+
 header .photo img {
-  max-height: 500px;
-  min-height: 250px;
   width: 100%;
+  min-height: 250px;
   margin: 0 auto;
   position: relative;
 
@@ -145,6 +150,18 @@ footer {
 
   /* Header
   ------------------------------------------------------------*/
+  header {
+  max-height: 500px;
+}
+
+  header .photo img {
+    max-height: 500px;
+    width: auto;
+  }
+
+
+/* Contents
+------------------------------------------------------------*/
   .button-contact:hover, .button-contact:active {
     background-color: #4c4c4c;
     color: #FFF; }
