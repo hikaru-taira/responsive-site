@@ -48,17 +48,21 @@ a {
 
 header {
   background-color: #DDDDDD;
-  max-height: 250px;
   text-align: center;
+  max-height: 250px;
+  min-height: 250px;
 }
 
-header .photo img {
+header .photo {
+  background-image: url(../images/img_photo.jpg);
+  background-size: cover;
   width: 100%;
+  max-height: 250px;
   min-height: 250px;
   margin: 0 auto;
   position: relative;
-
 }
+
 header p {
   font-size: 1.6rem; }
 
@@ -151,11 +155,13 @@ footer {
   /* Header
   ------------------------------------------------------------*/
   header {
-  max-height: 500px;
-}
-
-  header .photo img {
     max-height: 500px;
+    min-height: 500px
+  }
+
+  header .photo {
+    max-height: 500px;
+    min-height: 500px;
     width: auto;
   }
 
